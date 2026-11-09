@@ -1,0 +1,7 @@
+﻿algoritmo,exito_pct,costo_prom,pasos_prom,exceso_costo_prom_pct,rutas_optimas,expandidos_prom,max_frontera_prom,tiempo_ms_prom,memoria_kb_prom
+A*,100.0,21.8,17.0,0.0,15,34.8,10.2,0.1,6.79
+BFS,100.0,25.87,15.73,20.55,5,78.73,11.53,0.11,6.66
+DFS,100.0,77.4,49.67,414.08,0,91.53,28.6,0.14,11.76
+UCS,100.0,21.8,17.0,0.0,15,76.73,11.73,0.17,13.81
+Greedy,100.0,25.87,17.87,20.21,5,21.87,10.67,0.06,4.04
+Hill Climbing,13.33,26.5,8.5,6.8,1,7.6,1.0,0.03,0.8

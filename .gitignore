@@ -1,0 +1,35 @@
+# --- Entorno virtual de Python ---
+.venv/
+venv/
+env/
+
+# --- Archivos compilados y cachés de Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Streamlit (configuración local y secretos) ---
+.streamlit/secrets.toml
+
+# --- Memoria de rutas generada al usar la interfaz ---
+# (se crea sola; cada quien tiene la suya)
+resultados/memoria_rutas.json
+
+# --- Editores y sistema operativo ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Configuración local de Claude Code ---
+.claude/
+
+# --- Exportaciones temporales del manual ---
+~$*.docx
