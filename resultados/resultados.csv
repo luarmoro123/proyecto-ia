@@ -1,91 +1,91 @@
 ﻿mapa,inicio,algoritmo,exito,costo,pasos,nodos_expandidos,nodos_generados,max_frontera,tiempo_ms,memoria_kb,mensaje,exceso_costo_%
-Oficina,"(1, 1)",A*,True,15.0,15.0,24,34,12,0.084,5.56,"Llegó a la salida (0, 9).",0.0
-Oficina,"(1, 1)",BFS,True,23.0,15.0,82,92,13,0.1458,8.55,"Llegó a la salida (0, 9).",53.3
-Oficina,"(1, 1)",DFS,True,49.0,33.0,37,63,28,0.0858,6.08,"Llegó a la salida (0, 9).",226.7
-Oficina,"(1, 1)",UCS,True,15.0,15.0,80,92,16,0.2081,20.02,"Llegó a la salida (0, 9).",0.0
-Oficina,"(1, 1)",Greedy,True,15.0,15.0,19,29,12,0.0502,4.38,"Llegó a la salida (0, 9).",0.0
-Oficina,"(1, 1)",Hill Climbing,False,,,6,16,1,0.0247,0.77,"Se atoró en un mínimo local en (1, 6) (h = 4).",
-Oficina,"(8, 1)",A*,True,16.0,16.0,23,38,17,0.0787,5.58,"Llegó a la salida (0, 9).",0.0
-Oficina,"(8, 1)",BFS,True,20.0,16.0,142,155,16,0.1808,8.55,"Llegó a la salida (0, 9).",25.0
-Oficina,"(8, 1)",DFS,True,66.0,50.0,80,137,49,0.1166,15.73,"Llegó a la salida (0, 9).",312.5
-Oficina,"(8, 1)",UCS,True,16.0,16.0,133,147,20,0.4764,20.08,"Llegó a la salida (0, 9).",0.0
-Oficina,"(8, 1)",Greedy,True,30.0,22.0,26,43,19,0.0698,5.96,"Llegó a la salida (0, 9).",87.5
-Oficina,"(8, 1)",Hill Climbing,False,,,13,41,1,0.0547,0.9,"Se atoró en un mínimo local en (1, 6) (h = 4).",
-Oficina,"(12, 7)",A*,True,14.0,14.0,37,60,25,0.119,8.05,"Llegó a la salida (0, 9).",0.0
-Oficina,"(12, 7)",BFS,True,23.0,11.0,129,149,24,0.1558,8.55,"Llegó a la salida (19, 9).",64.3
-Oficina,"(12, 7)",DFS,True,48.0,32.0,51,92,35,0.0753,6.06,"Llegó a la salida (0, 9).",242.9
-Oficina,"(12, 7)",UCS,True,14.0,14.0,152,180,30,0.3179,32.27,"Llegó a la salida (0, 9).",0.0
-Oficina,"(12, 7)",Greedy,True,23.0,11.0,21,35,16,0.0553,4.38,"Llegó a la salida (19, 9).",64.3
-Oficina,"(12, 7)",Hill Climbing,False,,,6,21,1,0.0265,0.77,"Se atoró en un mínimo local en (15, 9) (h = 4).",
-Oficina,"(17, 1)",A*,True,16.0,12.0,18,20,4,0.0501,2.82,"Llegó a la salida (19, 9).",0.0
-Oficina,"(17, 1)",BFS,True,18.0,10.0,26,32,8,0.0341,2.79,"Llegó a la salida (19, 9).",12.5
-Oficina,"(17, 1)",DFS,True,67.0,47.0,66,113,41,0.1015,6.55,"Llegó a la salida (0, 9).",318.8
-Oficina,"(17, 1)",UCS,True,16.0,12.0,38,48,13,0.081,8.05,"Llegó a la salida (19, 9).",0.0
-Oficina,"(17, 1)",Greedy,True,18.0,10.0,13,17,6,0.0307,2.23,"Llegó a la salida (19, 9).",12.5
-Oficina,"(17, 1)",Hill Climbing,False,,,3,6,1,0.0126,0.74,"Se atoró en un mínimo local en (18, 2) (h = 8).",
-Oficina,"(5, 17)",A*,True,17.0,13.0,42,56,15,0.1279,8.08,"Llegó a la salida (0, 9).",0.0
-Oficina,"(5, 17)",BFS,True,25.0,13.0,90,101,13,0.1887,8.67,"Llegó a la salida (0, 9).",47.1
-Oficina,"(5, 17)",DFS,True,53.0,37.0,39,75,38,0.0742,6.02,"Llegó a la salida (0, 9).",211.8
-Oficina,"(5, 17)",UCS,True,17.0,13.0,125,142,19,0.265,20.05,"Llegó a la salida (0, 9).",0.0
-Oficina,"(5, 17)",Greedy,True,21.0,17.0,25,42,19,0.0683,5.9,"Llegó a la salida (14, 19).",23.5
+Oficina,"(1, 1)",A*,True,15.0,15.0,24,34,12,0.0959,5.56,"Llegó a la salida (0, 9).",0.0
+Oficina,"(1, 1)",BFS,True,23.0,15.0,82,92,13,0.1098,8.55,"Llegó a la salida (0, 9).",53.3
+Oficina,"(1, 1)",DFS,True,49.0,33.0,37,63,28,0.0618,6.08,"Llegó a la salida (0, 9).",226.7
+Oficina,"(1, 1)",UCS,True,15.0,15.0,80,92,16,0.1844,20.02,"Llegó a la salida (0, 9).",0.0
+Oficina,"(1, 1)",Greedy,True,15.0,15.0,19,29,12,0.0546,4.38,"Llegó a la salida (0, 9).",0.0
+Oficina,"(1, 1)",Hill Climbing,False,,,6,16,1,0.0431,0.77,"Se atoró en un mínimo local en (1, 6) (h = 4).",
+Oficina,"(8, 1)",A*,True,16.0,16.0,23,38,17,0.0855,5.58,"Llegó a la salida (0, 9).",0.0
+Oficina,"(8, 1)",BFS,True,20.0,16.0,142,155,16,0.1885,8.55,"Llegó a la salida (0, 9).",25.0
+Oficina,"(8, 1)",DFS,True,66.0,50.0,80,137,49,0.121,15.73,"Llegó a la salida (0, 9).",312.5
+Oficina,"(8, 1)",UCS,True,16.0,16.0,133,147,20,0.2836,20.08,"Llegó a la salida (0, 9).",0.0
+Oficina,"(8, 1)",Greedy,True,30.0,22.0,26,43,19,0.1087,5.96,"Llegó a la salida (0, 9).",87.5
+Oficina,"(8, 1)",Hill Climbing,False,,,13,41,1,0.0737,0.9,"Se atoró en un mínimo local en (1, 6) (h = 4).",
+Oficina,"(12, 7)",A*,True,14.0,14.0,37,60,25,0.1273,8.05,"Llegó a la salida (0, 9).",0.0
+Oficina,"(12, 7)",BFS,True,23.0,11.0,129,149,24,0.1658,8.55,"Llegó a la salida (19, 9).",64.3
+Oficina,"(12, 7)",DFS,True,48.0,32.0,51,92,35,0.0775,6.06,"Llegó a la salida (0, 9).",242.9
+Oficina,"(12, 7)",UCS,True,14.0,14.0,152,180,30,0.3343,32.27,"Llegó a la salida (0, 9).",0.0
+Oficina,"(12, 7)",Greedy,True,23.0,11.0,21,35,16,0.0971,4.38,"Llegó a la salida (19, 9).",64.3
+Oficina,"(12, 7)",Hill Climbing,False,,,6,21,1,0.0281,0.77,"Se atoró en un mínimo local en (15, 9) (h = 4).",
+Oficina,"(17, 1)",A*,True,16.0,12.0,18,20,4,0.054,2.82,"Llegó a la salida (19, 9).",0.0
+Oficina,"(17, 1)",BFS,True,18.0,10.0,26,32,8,0.036,2.79,"Llegó a la salida (19, 9).",12.5
+Oficina,"(17, 1)",DFS,True,67.0,47.0,66,113,41,0.1007,6.55,"Llegó a la salida (0, 9).",318.8
+Oficina,"(17, 1)",UCS,True,16.0,12.0,38,48,13,0.0829,8.05,"Llegó a la salida (19, 9).",0.0
+Oficina,"(17, 1)",Greedy,True,18.0,10.0,13,17,6,0.0312,2.23,"Llegó a la salida (19, 9).",12.5
+Oficina,"(17, 1)",Hill Climbing,False,,,3,6,1,0.0127,0.74,"Se atoró en un mínimo local en (18, 2) (h = 8).",
+Oficina,"(5, 17)",A*,True,17.0,13.0,42,56,15,0.1319,8.08,"Llegó a la salida (0, 9).",0.0
+Oficina,"(5, 17)",BFS,True,25.0,13.0,90,101,13,0.1242,8.67,"Llegó a la salida (0, 9).",47.1
+Oficina,"(5, 17)",DFS,True,53.0,37.0,39,75,38,0.0617,6.02,"Llegó a la salida (0, 9).",211.8
+Oficina,"(5, 17)",UCS,True,17.0,13.0,125,142,19,0.2808,20.05,"Llegó a la salida (0, 9).",0.0
+Oficina,"(5, 17)",Greedy,True,21.0,17.0,25,42,19,0.0716,5.9,"Llegó a la salida (14, 19).",23.5
 Oficina,"(5, 17)",Hill Climbing,False,,,6,19,1,0.0266,0.77,"Se atoró en un mínimo local en (9, 18) (h = 6).",
-Escuela,"(1, 9)",A*,True,44.0,16.0,45,51,10,0.1273,8.05,"Llegó a la salida (6, 0).",0.0
-Escuela,"(1, 9)",BFS,True,50.0,14.0,63,74,13,0.0809,4.63,"Llegó a la salida (6, 0).",13.6
-Escuela,"(1, 9)",DFS,True,141.0,61.0,84,133,39,0.1231,15.6,"Llegó a la salida (19, 10).",220.5
-Escuela,"(1, 9)",UCS,True,44.0,16.0,54,61,10,0.1093,8.02,"Llegó a la salida (6, 0).",0.0
-Escuela,"(1, 9)",Greedy,True,50.0,14.0,15,31,18,0.0439,2.88,"Llegó a la salida (6, 0).",13.6
-Escuela,"(1, 9)",Hill Climbing,True,50.0,14.0,15,44,1,0.0556,0.88,"Llegó a la salida (6, 0).",13.6
-Escuela,"(10, 1)",A*,True,13.0,9.0,18,24,8,0.0527,3.89,"Llegó a la salida (6, 0).",0.0
-Escuela,"(10, 1)",BFS,True,17.0,9.0,43,51,10,0.0552,4.31,"Llegó a la salida (6, 0).",30.8
-Escuela,"(10, 1)",DFS,True,64.0,40.0,43,64,23,0.0634,6.09,"Llegó a la salida (19, 10).",392.3
-Escuela,"(10, 1)",UCS,True,13.0,9.0,37,40,6,0.0711,5.52,"Llegó a la salida (6, 0).",0.0
-Escuela,"(10, 1)",Greedy,True,17.0,9.0,12,20,10,0.0321,2.29,"Llegó a la salida (6, 0).",30.8
-Escuela,"(10, 1)",Hill Climbing,False,,,2,5,1,0.0094,0.74,"Se atoró en un mínimo local en (9, 1) (h = 4).",
-Escuela,"(10, 10)",A*,True,27.0,15.0,35,39,9,0.095,5.52,"Llegó a la salida (19, 10).",0.0
-Escuela,"(10, 10)",BFS,True,29.0,13.0,51,58,9,0.0634,4.31,"Llegó a la salida (19, 10).",7.4
-Escuela,"(10, 10)",DFS,True,58.0,26.0,52,82,30,0.2203,5.95,"Llegó a la salida (6, 0).",114.8
-Escuela,"(10, 10)",UCS,True,27.0,15.0,38,42,9,0.1142,8.05,"Llegó a la salida (19, 10).",0.0
-Escuela,"(10, 10)",Greedy,True,29.0,13.0,16,25,11,0.0654,2.82,"Llegó a la salida (19, 10).",7.4
+Escuela,"(1, 9)",A*,True,44.0,16.0,45,51,10,0.1312,8.05,"Llegó a la salida (6, 0).",0.0
+Escuela,"(1, 9)",BFS,True,50.0,14.0,63,74,13,0.0816,4.63,"Llegó a la salida (6, 0).",13.6
+Escuela,"(1, 9)",DFS,True,141.0,61.0,84,133,39,0.1341,15.6,"Llegó a la salida (19, 10).",220.5
+Escuela,"(1, 9)",UCS,True,44.0,16.0,54,61,10,0.1143,8.02,"Llegó a la salida (6, 0).",0.0
+Escuela,"(1, 9)",Greedy,True,50.0,14.0,15,31,18,0.0469,2.88,"Llegó a la salida (6, 0).",13.6
+Escuela,"(1, 9)",Hill Climbing,True,50.0,14.0,15,44,1,0.0581,0.88,"Llegó a la salida (6, 0).",13.6
+Escuela,"(10, 1)",A*,True,13.0,9.0,18,24,8,0.0555,3.89,"Llegó a la salida (6, 0).",0.0
+Escuela,"(10, 1)",BFS,True,17.0,9.0,43,51,10,0.0572,4.31,"Llegó a la salida (6, 0).",30.8
+Escuela,"(10, 1)",DFS,True,64.0,40.0,43,64,23,0.0659,6.09,"Llegó a la salida (19, 10).",392.3
+Escuela,"(10, 1)",UCS,True,13.0,9.0,37,40,6,0.0735,5.52,"Llegó a la salida (6, 0).",0.0
+Escuela,"(10, 1)",Greedy,True,17.0,9.0,12,20,10,0.0337,2.29,"Llegó a la salida (6, 0).",30.8
+Escuela,"(10, 1)",Hill Climbing,False,,,2,5,1,0.0096,0.74,"Se atoró en un mínimo local en (9, 1) (h = 4).",
+Escuela,"(10, 10)",A*,True,27.0,15.0,35,39,9,0.0975,5.52,"Llegó a la salida (19, 10).",0.0
+Escuela,"(10, 10)",BFS,True,29.0,13.0,51,58,9,0.068,4.31,"Llegó a la salida (19, 10).",7.4
+Escuela,"(10, 10)",DFS,True,58.0,26.0,52,82,30,0.0766,5.95,"Llegó a la salida (6, 0).",114.8
+Escuela,"(10, 10)",UCS,True,27.0,15.0,38,42,9,0.0774,8.05,"Llegó a la salida (19, 10).",0.0
+Escuela,"(10, 10)",Greedy,True,29.0,13.0,16,25,11,0.0428,2.82,"Llegó a la salida (19, 10).",7.4
 Escuela,"(10, 10)",Hill Climbing,False,,,5,16,1,0.0225,0.77,"Se atoró en un mínimo local en (14, 10) (h = 5).",
-Escuela,"(17, 9)",A*,True,3.0,3.0,4,8,6,0.015,1.55,"Llegó a la salida (19, 10).",0.0
-Escuela,"(17, 9)",BFS,True,3.0,3.0,13,16,6,0.0176,2.05,"Llegó a la salida (19, 10).",0.0
-Escuela,"(17, 9)",DFS,True,72.0,40.0,68,106,38,0.1043,6.41,"Llegó a la salida (6, 0).",2300.0
-Escuela,"(17, 9)",UCS,True,3.0,3.0,11,14,6,0.0236,2.69,"Llegó a la salida (19, 10).",0.0
-Escuela,"(17, 9)",Greedy,True,3.0,3.0,4,8,6,0.0121,1.27,"Llegó a la salida (19, 10).",0.0
-Escuela,"(17, 9)",Hill Climbing,True,3.0,3.0,4,11,1,0.0139,0.72,"Llegó a la salida (19, 10).",0.0
-Escuela,"(16, 15)",A*,True,26.0,22.0,39,48,10,0.1078,8.05,"Llegó a la salida (6, 19).",0.0
-Escuela,"(16, 15)",BFS,True,30.0,22.0,81,96,17,0.1027,8.55,"Llegó a la salida (6, 19).",15.4
-Escuela,"(16, 15)",DFS,True,216.0,96.0,171,256,48,0.2519,23.52,"Llegó a la salida (19, 10).",730.8
-Escuela,"(16, 15)",UCS,True,26.0,22.0,46,48,5,0.0869,8.11,"Llegó a la salida (6, 19).",0.0
-Escuela,"(16, 15)",Greedy,True,32.0,24.0,28,37,11,0.0647,4.58,"Llegó a la salida (6, 19).",23.1
-Escuela,"(16, 15)",Hill Climbing,False,,,4,8,1,0.0147,0.74,"Se atoró en un mínimo local en (18, 14) (h = 5).",
-Bodega,"(7, 8)",A*,True,34.0,22.0,44,49,6,0.1112,8.05,"Llegó a la salida (18, 19).",0.0
-Bodega,"(7, 8)",BFS,True,34.0,22.0,95,99,8,0.1156,8.67,"Llegó a la salida (18, 19).",0.0
-Bodega,"(7, 8)",DFS,True,63.0,51.0,107,113,9,0.1525,15.8,"Llegó a la salida (1, 19).",85.3
-Bodega,"(7, 8)",UCS,True,34.0,22.0,91,95,8,0.1776,20.26,"Llegó a la salida (18, 19).",0.0
-Bodega,"(7, 8)",Greedy,True,44.0,32.0,35,41,8,0.1398,4.7,"Llegó a la salida (18, 19).",29.4
-Bodega,"(7, 8)",Hill Climbing,False,,,3,6,1,0.0139,0.74,"Se atoró en un mínimo local en (7, 10) (h = 15).",
-Bodega,"(5, 9)",A*,True,23.0,23.0,28,31,5,0.0983,5.52,"Llegó a la salida (18, 19).",0.0
-Bodega,"(5, 9)",BFS,True,23.0,23.0,78,87,11,0.1031,8.55,"Llegó a la salida (18, 19).",0.0
-Bodega,"(5, 9)",DFS,True,60.0,56.0,164,185,13,0.2361,15.73,"Llegó a la salida (1, 19).",160.9
-Bodega,"(5, 9)",UCS,True,23.0,23.0,71,77,8,0.1288,8.05,"Llegó a la salida (18, 19).",0.0
-Bodega,"(5, 9)",Greedy,True,23.0,23.0,25,28,5,0.0548,4.45,"Llegó a la salida (18, 19).",0.0
-Bodega,"(5, 9)",Hill Climbing,False,,,4,8,1,0.0143,0.74,"Se atoró en un mínimo local en (5, 12) (h = 11).",
-Bodega,"(14, 5)",A*,True,32.0,28.0,58,64,11,0.1451,8.05,"Llegó a la salida (18, 19).",0.0
-Bodega,"(14, 5)",BFS,True,32.0,28.0,116,119,8,0.1366,8.67,"Llegó a la salida (18, 19).",0.0
-Bodega,"(14, 5)",DFS,True,61.0,61.0,132,144,11,0.1783,15.73,"Llegó a la salida (1, 19).",90.6
-Bodega,"(14, 5)",UCS,True,32.0,28.0,101,106,7,0.1898,20.26,"Llegó a la salida (18, 19).",0.0
-Bodega,"(14, 5)",Greedy,True,32.0,28.0,31,38,9,0.0687,4.61,"Llegó a la salida (18, 19).",0.0
-Bodega,"(14, 5)",Hill Climbing,False,,,16,38,1,0.0525,0.9,"Se atoró en un mínimo local en (18, 16) (h = 3).",
-Bodega,"(10, 1)",A*,True,36.0,36.0,90,99,11,0.2251,20.29,"Llegó a la salida (18, 19).",0.0
-Bodega,"(10, 1)",BFS,True,50.0,26.0,134,134,9,0.2026,8.67,"Llegó a la salida (18, 19).",38.9
-Bodega,"(10, 1)",DFS,True,47.0,43.0,151,172,13,0.2135,15.73,"Llegó a la salida (1, 19).",30.6
-Bodega,"(10, 1)",UCS,True,36.0,36.0,138,139,12,0.2485,20.26,"Llegó a la salida (18, 19).",0.0
-Bodega,"(10, 1)",Greedy,True,40.0,36.0,39,43,6,0.0785,5.9,"Llegó a la salida (18, 19).",11.1
-Bodega,"(10, 1)",Hill Climbing,False,,,24,51,1,0.0752,1.02,"Se atoró en un mínimo local en (18, 16) (h = 3).",
-Bodega,"(16, 16)",A*,True,11.0,11.0,17,19,4,0.0415,2.82,"Llegó a la salida (18, 19).",0.0
-Bodega,"(16, 16)",BFS,True,11.0,11.0,38,43,8,0.0483,4.31,"Llegó a la salida (18, 19).",0.0
-Bodega,"(16, 16)",DFS,True,96.0,72.0,128,139,14,0.1741,15.45,"Llegó a la salida (1, 19).",772.7
-Bodega,"(16, 16)",UCS,True,11.0,11.0,36,40,7,0.0658,5.52,"Llegó a la salida (18, 19).",0.0
-Bodega,"(16, 16)",Greedy,True,11.0,11.0,19,21,4,0.0397,4.29,"Llegó a la salida (18, 19).",0.0
-Bodega,"(16, 16)",Hill Climbing,False,,,3,6,1,0.0109,0.74,"Se atoró en un mínimo local en (18, 16) (h = 3).",
+Escuela,"(17, 9)",A*,True,3.0,3.0,4,8,6,0.0157,1.55,"Llegó a la salida (19, 10).",0.0
+Escuela,"(17, 9)",BFS,True,3.0,3.0,13,16,6,0.0175,2.05,"Llegó a la salida (19, 10).",0.0
+Escuela,"(17, 9)",DFS,True,72.0,40.0,68,106,38,0.0957,6.41,"Llegó a la salida (6, 0).",2300.0
+Escuela,"(17, 9)",UCS,True,3.0,3.0,11,14,6,0.0239,2.69,"Llegó a la salida (19, 10).",0.0
+Escuela,"(17, 9)",Greedy,True,3.0,3.0,4,8,6,0.013,1.27,"Llegó a la salida (19, 10).",0.0
+Escuela,"(17, 9)",Hill Climbing,True,3.0,3.0,4,11,1,0.0172,0.72,"Llegó a la salida (19, 10).",0.0
+Escuela,"(16, 15)",A*,True,26.0,22.0,39,48,10,0.1403,8.05,"Llegó a la salida (6, 19).",0.0
+Escuela,"(16, 15)",BFS,True,30.0,22.0,81,96,17,0.1052,8.55,"Llegó a la salida (6, 19).",15.4
+Escuela,"(16, 15)",DFS,True,216.0,96.0,171,256,48,0.2838,23.52,"Llegó a la salida (19, 10).",730.8
+Escuela,"(16, 15)",UCS,True,26.0,22.0,46,48,5,0.0912,8.11,"Llegó a la salida (6, 19).",0.0
+Escuela,"(16, 15)",Greedy,True,32.0,24.0,28,37,11,0.0669,4.58,"Llegó a la salida (6, 19).",23.1
+Escuela,"(16, 15)",Hill Climbing,False,,,4,8,1,0.0157,0.74,"Se atoró en un mínimo local en (18, 14) (h = 5).",
+Bodega,"(7, 8)",A*,True,34.0,22.0,44,49,6,0.118,8.05,"Llegó a la salida (18, 19).",0.0
+Bodega,"(7, 8)",BFS,True,34.0,22.0,95,99,8,0.173,8.67,"Llegó a la salida (18, 19).",0.0
+Bodega,"(7, 8)",DFS,True,63.0,51.0,107,113,9,0.149,15.8,"Llegó a la salida (1, 19).",85.3
+Bodega,"(7, 8)",UCS,True,34.0,22.0,91,95,8,0.181,20.26,"Llegó a la salida (18, 19).",0.0
+Bodega,"(7, 8)",Greedy,True,44.0,32.0,35,41,8,0.0776,4.7,"Llegó a la salida (18, 19).",29.4
+Bodega,"(7, 8)",Hill Climbing,False,,,3,6,1,0.0119,0.74,"Se atoró en un mínimo local en (7, 10) (h = 15).",
+Bodega,"(5, 9)",A*,True,23.0,23.0,28,31,5,0.0698,5.52,"Llegó a la salida (18, 19).",0.0
+Bodega,"(5, 9)",BFS,True,23.0,23.0,78,87,11,0.1113,8.55,"Llegó a la salida (18, 19).",0.0
+Bodega,"(5, 9)",DFS,True,60.0,56.0,164,185,13,0.2367,15.73,"Llegó a la salida (1, 19).",160.9
+Bodega,"(5, 9)",UCS,True,23.0,23.0,71,77,8,0.1411,8.05,"Llegó a la salida (18, 19).",0.0
+Bodega,"(5, 9)",Greedy,True,23.0,23.0,25,28,5,0.0555,4.45,"Llegó a la salida (18, 19).",0.0
+Bodega,"(5, 9)",Hill Climbing,False,,,4,8,1,0.0151,0.74,"Se atoró en un mínimo local en (5, 12) (h = 11).",
+Bodega,"(14, 5)",A*,True,32.0,28.0,58,64,11,0.1523,8.05,"Llegó a la salida (18, 19).",0.0
+Bodega,"(14, 5)",BFS,True,32.0,28.0,116,119,8,0.1518,8.67,"Llegó a la salida (18, 19).",0.0
+Bodega,"(14, 5)",DFS,True,61.0,61.0,132,144,11,0.1884,15.73,"Llegó a la salida (1, 19).",90.6
+Bodega,"(14, 5)",UCS,True,32.0,28.0,101,106,7,0.2224,20.26,"Llegó a la salida (18, 19).",0.0
+Bodega,"(14, 5)",Greedy,True,32.0,28.0,31,38,9,0.0723,4.61,"Llegó a la salida (18, 19).",0.0
+Bodega,"(14, 5)",Hill Climbing,False,,,16,38,1,0.055,0.9,"Se atoró en un mínimo local en (18, 16) (h = 3).",
+Bodega,"(10, 1)",A*,True,36.0,36.0,90,99,11,0.3744,20.29,"Llegó a la salida (18, 19).",0.0
+Bodega,"(10, 1)",BFS,True,50.0,26.0,134,134,9,0.1757,8.67,"Llegó a la salida (18, 19).",38.9
+Bodega,"(10, 1)",DFS,True,47.0,43.0,151,172,13,0.2231,15.73,"Llegó a la salida (1, 19).",30.6
+Bodega,"(10, 1)",UCS,True,36.0,36.0,138,139,12,0.2761,20.26,"Llegó a la salida (18, 19).",0.0
+Bodega,"(10, 1)",Greedy,True,40.0,36.0,39,43,6,0.0853,5.9,"Llegó a la salida (18, 19).",11.1
+Bodega,"(10, 1)",Hill Climbing,False,,,24,51,1,0.0792,1.02,"Se atoró en un mínimo local en (18, 16) (h = 3).",
+Bodega,"(16, 16)",A*,True,11.0,11.0,17,19,4,0.0426,2.82,"Llegó a la salida (18, 19).",0.0
+Bodega,"(16, 16)",BFS,True,11.0,11.0,38,43,8,0.0497,4.31,"Llegó a la salida (18, 19).",0.0
+Bodega,"(16, 16)",DFS,True,96.0,72.0,128,139,14,0.2757,15.45,"Llegó a la salida (1, 19).",772.7
+Bodega,"(16, 16)",UCS,True,11.0,11.0,36,40,7,0.094,5.52,"Llegó a la salida (18, 19).",0.0
+Bodega,"(16, 16)",Greedy,True,11.0,11.0,19,21,4,0.0567,4.29,"Llegó a la salida (18, 19).",0.0
+Bodega,"(16, 16)",Hill Climbing,False,,,3,6,1,0.0162,0.74,"Se atoró en un mínimo local en (18, 16) (h = 3).",

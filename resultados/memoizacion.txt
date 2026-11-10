@@ -2,38 +2,38 @@ Demostración de memoización con A*
 ========================================
 
 Vuelta 1:
-  RAZONA   Oficina  (1, 1)    costo= 15 expandidos=  24 tiempo=0.347 ms
-  RAZONA   Oficina  (8, 1)    costo= 16 expandidos=  23 tiempo=0.218 ms
-  RAZONA   Oficina  (12, 7)   costo= 14 expandidos=  37 tiempo=0.250 ms
-  RAZONA   Oficina  (17, 1)   costo= 16 expandidos=  18 tiempo=0.159 ms
-  RAZONA   Oficina  (5, 17)   costo= 17 expandidos=  42 tiempo=0.253 ms
-  RAZONA   Escuela  (1, 9)    costo= 44 expandidos=  45 tiempo=0.292 ms
-  RAZONA   Escuela  (10, 1)   costo= 13 expandidos=  18 tiempo=0.132 ms
-  RAZONA   Escuela  (10, 10)  costo= 27 expandidos=  35 tiempo=0.245 ms
-  RAZONA   Escuela  (17, 9)   costo=  3 expandidos=   4 tiempo=0.046 ms
-  RAZONA   Escuela  (16, 15)  costo= 26 expandidos=  39 tiempo=0.311 ms
-  RAZONA   Bodega   (7, 8)    costo= 34 expandidos=  44 tiempo=0.325 ms
-  RAZONA   Bodega   (5, 9)    costo= 23 expandidos=  28 tiempo=1.356 ms
-  RAZONA   Bodega   (14, 5)   costo= 32 expandidos=  58 tiempo=0.432 ms
-  RAZONA   Bodega   (10, 1)   costo= 36 expandidos=  90 tiempo=0.520 ms
-  RECUERDA Bodega   (16, 16)  costo= 11 expandidos=   0 tiempo=0.012 ms
+  RAZONA   Oficina  (1, 1)    costo= 15 expandidos=  24 tiempo=0.773 ms
+  RAZONA   Oficina  (8, 1)    costo= 16 expandidos=  23 tiempo=0.883 ms
+  RAZONA   Oficina  (12, 7)   costo= 14 expandidos=  37 tiempo=2.054 ms
+  RAZONA   Oficina  (17, 1)   costo= 16 expandidos=  18 tiempo=5.447 ms
+  RAZONA   Oficina  (5, 17)   costo= 17 expandidos=  42 tiempo=1.568 ms
+  RAZONA   Escuela  (1, 9)    costo= 44 expandidos=  45 tiempo=0.626 ms
+  RAZONA   Escuela  (10, 1)   costo= 13 expandidos=  18 tiempo=0.293 ms
+  RAZONA   Escuela  (10, 10)  costo= 27 expandidos=  35 tiempo=5.052 ms
+  RAZONA   Escuela  (17, 9)   costo=  3 expandidos=   4 tiempo=0.275 ms
+  RAZONA   Escuela  (16, 15)  costo= 26 expandidos=  39 tiempo=0.755 ms
+  RAZONA   Bodega   (7, 8)    costo= 34 expandidos=  44 tiempo=0.723 ms
+  RAZONA   Bodega   (5, 9)    costo= 23 expandidos=  28 tiempo=12.670 ms
+  RAZONA   Bodega   (14, 5)   costo= 32 expandidos=  58 tiempo=1.289 ms
+  RAZONA   Bodega   (10, 1)   costo= 36 expandidos=  90 tiempo=1.018 ms
+  RECUERDA Bodega   (16, 16)  costo= 11 expandidos=   0 tiempo=0.873 ms
 
 Vuelta 2:
-  RECUERDA Oficina  (1, 1)    costo= 15 expandidos=   0 tiempo=0.010 ms
-  RECUERDA Oficina  (8, 1)    costo= 16 expandidos=   0 tiempo=0.008 ms
-  RECUERDA Oficina  (12, 7)   costo= 14 expandidos=   0 tiempo=0.008 ms
-  RECUERDA Oficina  (17, 1)   costo= 16 expandidos=   0 tiempo=0.007 ms
-  RECUERDA Oficina  (5, 17)   costo= 17 expandidos=   0 tiempo=0.007 ms
-  RECUERDA Escuela  (1, 9)    costo= 44 expandidos=   0 tiempo=0.008 ms
-  RECUERDA Escuela  (10, 1)   costo= 13 expandidos=   0 tiempo=0.007 ms
-  RECUERDA Escuela  (10, 10)  costo= 27 expandidos=   0 tiempo=0.007 ms
-  RECUERDA Escuela  (17, 9)   costo=  3 expandidos=   0 tiempo=0.006 ms
-  RECUERDA Escuela  (16, 15)  costo= 26 expandidos=   0 tiempo=0.007 ms
-  RECUERDA Bodega   (7, 8)    costo= 34 expandidos=   0 tiempo=0.008 ms
-  RECUERDA Bodega   (5, 9)    costo= 23 expandidos=   0 tiempo=0.007 ms
-  RECUERDA Bodega   (14, 5)   costo= 32 expandidos=   0 tiempo=0.008 ms
-  RECUERDA Bodega   (10, 1)   costo= 36 expandidos=   0 tiempo=0.010 ms
-  RECUERDA Bodega   (16, 16)  costo= 11 expandidos=   0 tiempo=0.007 ms
+  RECUERDA Oficina  (1, 1)    costo= 15 expandidos=   0 tiempo=0.111 ms
+  RECUERDA Oficina  (8, 1)    costo= 16 expandidos=   0 tiempo=0.035 ms
+  RECUERDA Oficina  (12, 7)   costo= 14 expandidos=   0 tiempo=0.023 ms
+  RECUERDA Oficina  (17, 1)   costo= 16 expandidos=   0 tiempo=0.020 ms
+  RECUERDA Oficina  (5, 17)   costo= 17 expandidos=   0 tiempo=0.022 ms
+  RECUERDA Escuela  (1, 9)    costo= 44 expandidos=   0 tiempo=0.023 ms
+  RECUERDA Escuela  (10, 1)   costo= 13 expandidos=   0 tiempo=0.019 ms
+  RECUERDA Escuela  (10, 10)  costo= 27 expandidos=   0 tiempo=0.043 ms
+  RECUERDA Escuela  (17, 9)   costo=  3 expandidos=   0 tiempo=0.017 ms
+  RECUERDA Escuela  (16, 15)  costo= 26 expandidos=   0 tiempo=0.018 ms
+  RECUERDA Bodega   (7, 8)    costo= 34 expandidos=   0 tiempo=0.021 ms
+  RECUERDA Bodega   (5, 9)    costo= 23 expandidos=   0 tiempo=0.019 ms
+  RECUERDA Bodega   (14, 5)   costo= 32 expandidos=   0 tiempo=0.025 ms
+  RECUERDA Bodega   (10, 1)   costo= 36 expandidos=   0 tiempo=0.028 ms
+  RECUERDA Bodega   (16, 16)  costo= 11 expandidos=   0 tiempo=0.016 ms
 
 Aciertos (de memoria): 16   Fallos (tuvo que buscar): 14
 Rutas guardadas (incluye sub-rutas aprendidas): 193

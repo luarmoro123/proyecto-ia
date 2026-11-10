@@ -48,10 +48,16 @@ python -m venv .venv
 
 ### 3. Instalar las dependencias (solo la primera vez)
 
-**Windows:**
+**Windows (PowerShell / CMD):**
 
 ```bash
-.venv\Scripts\python -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+**Windows (Git Bash):**
+
+```bash
+./.venv/Scripts/python.exe -m pip install -r requirements.txt
 ```
 
 **macOS / Linux:**
@@ -62,10 +68,16 @@ python -m venv .venv
 
 ### 4. Abrir la interfaz visual
 
-**Windows:**
+**Windows (PowerShell / CMD):**
 
 ```bash
-.venv\Scripts\python -m streamlit run app.py
+.\.venv\Scripts\python.exe -m streamlit run app.py
+```
+
+**Windows (Git Bash):**
+
+```bash
+./.venv/Scripts/python.exe -m streamlit run app.py
 ```
 
 **macOS / Linux:**
