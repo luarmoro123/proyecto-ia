@@ -1,7 +1,7 @@
 """
 Piezas comunes a todos los algoritmos de búsqueda.
 
-Convenciones que siguen los 6 algoritmos (para que la comparación sea justa):
+Convenciones que siguen los 3 algoritmos (para que la comparación sea justa):
 
 * La prueba de objetivo se hace al EXPANDIR un nodo (al sacarlo de la frontera),
   no al generarlo. Así "nodos expandidos" significa lo mismo en todos.
@@ -9,7 +9,7 @@ Convenciones que siguen los 6 algoritmos (para que la comparación sea justa):
 * Los empates en colas de prioridad se rompen por orden de llegada (FIFO),
   usando un contador incremental.
 * Todos son búsqueda en GRAFO: recuerdan qué celdas ya visitaron para no
-  repetirlas (salvo Hill Climbing, que no guarda historial).
+  repetirlas.
 """
 
 from __future__ import annotations
@@ -40,7 +40,7 @@ class Resultado:
         return max(len(self.ruta) - 1, 0)
 
     def a_dict(self) -> dict:
-        """Versión serializable (se usa en la caché JSON)."""
+        """Versión serializable (se envía a la interfaz como JSON)."""
         return {
             "algoritmo": self.algoritmo,
             "exito": self.exito,
@@ -52,20 +52,6 @@ class Resultado:
             "orden_expansion": [list(p) for p in self.orden_expansion],
             "mensaje": self.mensaje,
         }
-
-    @classmethod
-    def desde_dict(cls, d: dict) -> "Resultado":
-        return cls(
-            algoritmo=d["algoritmo"],
-            exito=d["exito"],
-            ruta=[tuple(p) for p in d["ruta"]],
-            costo=d["costo"],
-            nodos_expandidos=d["nodos_expandidos"],
-            nodos_generados=d["nodos_generados"],
-            max_frontera=d["max_frontera"],
-            orden_expansion=[tuple(p) for p in d["orden_expansion"]],
-            mensaje=d.get("mensaje", ""),
-        )
 
 
 def reconstruir_ruta(padres: dict[Posicion, Posicion | None], meta: Posicion) -> list[Posicion]:

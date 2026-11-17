@@ -13,12 +13,7 @@ __pycache__/
 .coverage
 htmlcov/
 
-# --- Streamlit (configuración local y secretos) ---
-.streamlit/secrets.toml
 
-# --- Memoria de rutas generada al usar la interfaz ---
-# (se crea sola; cada quien tiene la suya)
-resultados/memoria_rutas.json
 
 # --- Editores y sistema operativo ---
 .vscode/

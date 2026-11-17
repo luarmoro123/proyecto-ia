@@ -1,12 +1,12 @@
 """
-Representación del edificio como una cuadrícula.
+Representación de la zona forestal como una cuadrícula.
 
 Cada celda guarda un símbolo:
 
-    '.'  libre   -> se puede pisar, costo 1
+    '.'  sendero -> se puede pisar, costo 1
     'H'  humo    -> se puede pisar, costo 5
-    'S'  salida  -> se puede pisar, costo 1 (es el objetivo)
-    '#'  muro    -> bloqueada
+    'S'  zona segura -> se puede pisar, costo 1 (es el objetivo)
+    '#'  roca o río -> bloqueada
     'F'  fuego   -> bloqueada (el fuego no se propaga durante la simulación)
 
 Una posición es una tupla (fila, columna) con origen arriba a la izquierda.
@@ -46,7 +46,7 @@ Posicion = tuple[int, int]
 
 @dataclass
 class Cuadricula:
-    """Edificio de `filas x columnas` celdas."""
+    """Zona forestal de `filas x columnas` celdas."""
 
     celdas: list[list[str]]
     filas: int = field(init=False)
@@ -77,13 +77,6 @@ class Cuadricula:
         """Crea la cuadrícula a partir de líneas de texto (una por fila)."""
         lineas = texto.strip().splitlines() if isinstance(texto, str) else texto
         return cls([list(linea.strip()) for linea in lineas if linea.strip()])
-
-    def a_texto(self) -> str:
-        return "\n".join("".join(fila) for fila in self.celdas)
-
-    def huella(self) -> str:
-        """Texto que identifica de forma única el contenido del mapa (se usa en la caché)."""
-        return "".join("".join(fila) for fila in self.celdas)
 
     # --- Consultas básicas ----------------------------------------------------
     def dentro(self, pos: Posicion) -> bool:
@@ -132,13 +125,3 @@ class Cuadricula:
     def costo_ruta(self, ruta: list[Posicion]) -> int:
         """Suma de los costos de cada celda a la que se entra (sin contar el inicio)."""
         return sum(self.costo(p) for p in ruta[1:])
-
-    def copia(self) -> "Cuadricula":
-        return Cuadricula([fila[:] for fila in self.celdas])
-
-    def con_celda(self, pos: Posicion, simbolo: str) -> "Cuadricula":
-        """Devuelve una copia con una celda cambiada (útil para el editor)."""
-        nueva = self.copia()
-        nueva.celdas[pos[0]][pos[1]] = simbolo
-        nueva.__post_init__()
-        return nueva

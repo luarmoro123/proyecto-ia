@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escape forestal</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <h1>Escape de incendio forestal</h1>
+    <p>A*, BFS y DFS buscando la zona segura, paso a paso</p>
+  </header>
+
+  <main class="pagina">
+    <section class="tarjeta">
+      <svg id="mapa" class="mapa" aria-label="Mapa del bosque"></svg>
+      <ul class="leyenda">
+        <li><span class="chip libre"></span>Sendero (1)</li>
+        <li><span class="chip humo"></span>Humo (5)</li>
+        <li><span class="chip roca"></span>Roca/río</li>
+        <li><span class="chip fuego"></span>Fuego</li>
+        <li><span class="chip salida"></span>Zona segura</li>
+        <li><span class="chip inicio"></span>Inicio</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <div class="tarjeta">
+        <h2>Algoritmo</h2>
+        <div id="algoritmos" class="segmentos"></div>
+
+        <h2>Inicio</h2>
+        <select id="inicio"></select>
+        <p class="nota">También puedes hacer clic en el mapa.</p>
+
+        <h2>Ejecución</h2>
+        <div class="controles">
+          <button id="btnCorrer" class="boton primario">▶ Correr</button>
+          <button id="btnPaso" class="boton">Paso</button>
+          <button id="btnReiniciar" class="boton">Reiniciar</button>
+        </div>
+        <label class="velocidad">
+          Velocidad <input id="velocidad" type="range" min="1" max="100" value="30">
+        </label>
+        <div class="progreso"><div id="barra"></div></div>
+        <p id="estado" class="nota">Elige un algoritmo y pulsa Correr.</p>
+      </div>
+
+      <div class="metricas">
+        <div><span>Expandidos</span><b id="mExpandidos">—</b></div>
+        <div><span>Costo</span><b id="mCosto">—</b></div>
+        <div><span>Pasos</span><b id="mPasos">—</b></div>
+        <div><span>Tiempo</span><b id="mTiempo">—</b></div>
+      </div>
+
+      <div class="tarjeta">
+        <h2>Resultados desde este inicio</h2>
+        <table>
+          <thead><tr><th>Algoritmo</th><th>Costo</th><th>Pasos</th><th>Expandidos</th><th>Tiempo (ms)</th></tr></thead>
+          <tbody id="tabla"><tr><td colspan="5" class="nota">Aún no se ha corrido ningún algoritmo.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

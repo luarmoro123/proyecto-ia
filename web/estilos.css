@@ -1,0 +1,125 @@
+/* Escape de incendio forestal — estilos propios (sin frameworks) */
+
+:root {
+  --fondo: #ffffff;
+  --borde: #e5e7eb;
+  --texto: #1f2937;
+  --suave: #6b7280;
+  --verde: #16a34a;
+
+  /* Mapa */
+  --libre: #a8d5a2;
+  --roca: #8a94a3;
+  --fuego: #e8705a;
+  --humo: #cfd3d9;
+  --salida: #6cbfe6;
+  --inicio: #f5cf3a;
+  --linea: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 15px;
+  color: var(--texto);
+  background: var(--fondo);
+}
+
+.cabecera { padding: 24px 24px 0; max-width: 1150px; margin: 0 auto; }
+.cabecera h1 { margin: 0; font-size: 1.4rem; color: var(--verde); }
+.cabecera p { margin: 4px 0 0; color: var(--suave); }
+
+.pagina {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(300px, 1fr);
+  gap: 28px;
+  padding: 20px 24px 40px;
+  max-width: 1150px;
+  margin: 0 auto;
+  align-items: start;
+}
+.panel { display: flex; flex-direction: column; gap: 20px; }
+
+.tarjeta h2 {
+  margin: 18px 0 8px;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--suave);
+}
+.tarjeta h2:first-child { margin-top: 0; }
+
+.nota { margin: 8px 0 0; font-size: .85rem; color: var(--suave); }
+
+/* Mapa */
+.mapa { display: block; width: 100%; height: auto; cursor: pointer; }
+.mapa .eje { fill: var(--suave); font-size: .45px; }
+
+.leyenda { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 12px 0 0; padding: 0; font-size: .85rem; color: var(--suave); }
+.leyenda li { display: flex; align-items: center; gap: 6px; }
+.chip { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.chip.libre { background: var(--libre); }
+.chip.humo { background: var(--humo); }
+.chip.roca { background: var(--roca); }
+.chip.fuego { background: var(--fuego); }
+.chip.salida { background: var(--salida); }
+.chip.inicio { background: var(--inicio); border-radius: 50%; border: 1px solid #000; }
+
+/* Controles */
+select {
+  width: 100%;
+  font: inherit;
+  color: var(--texto);
+  background: var(--fondo);
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.segmentos { display: flex; gap: 6px; }
+.segmento, .boton {
+  font: inherit;
+  color: var(--texto);
+  background: var(--fondo);
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.segmento { flex: 1; font-weight: 600; }
+.segmento.activo { border-color: var(--verde); background: var(--verde); color: #fff; }
+.boton:hover, .segmento:hover { border-color: var(--verde); }
+.boton.primario { background: var(--verde); border-color: var(--verde); color: #fff; font-weight: 600; }
+
+.controles { display: flex; gap: 6px; }
+.controles .boton { flex: 1; }
+
+.velocidad { display: flex; align-items: center; gap: 10px; margin-top: 12px; font-size: .85rem; color: var(--suave); }
+.velocidad input { flex: 1; accent-color: var(--verde); }
+
+.progreso { height: 4px; background: var(--borde); border-radius: 2px; margin-top: 12px; overflow: hidden; }
+#barra { height: 100%; width: 0; background: var(--verde); }
+
+/* Métricas */
+.metricas { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.metricas div { border-top: 2px solid var(--verde); padding-top: 6px; }
+.metricas span { display: block; font-size: .7rem; text-transform: uppercase; color: var(--suave); }
+.metricas b { font-size: 1.3rem; font-variant-numeric: tabular-nums; }
+
+/* Tabla */
+table { width: 100%; border-collapse: collapse; font-size: .85rem; font-variant-numeric: tabular-nums; }
+th, td { padding: 8px 6px; text-align: right; border-bottom: 1px solid var(--borde); }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--suave); font-weight: 600; font-size: .75rem; }
+tbody tr:last-child td { border-bottom: 0; }
+.alg { font-weight: 600; color: var(--c); }
+
+@media (max-width: 860px) {
+  .pagina { grid-template-columns: 1fr; padding: 16px; }
+  .cabecera { padding: 16px 16px 0; }
+}
+@media (max-width: 420px) {
+  .metricas { grid-template-columns: repeat(2, 1fr); }
+}

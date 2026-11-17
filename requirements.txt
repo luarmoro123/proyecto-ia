@@ -1,5 +1,2 @@
-streamlit>=1.40
-matplotlib>=3.8
-numpy>=1.26
-pandas>=2.1
+flask>=3.0
 pytest>=8.0
