@@ -8,7 +8,8 @@
 
 "use strict";
 
-const COLOR_CELDA = { ".": "var(--libre)", "#": "var(--roca)", "F": "var(--fuego)", "H": "var(--humo)", "S": "var(--salida)" };
+const CELDAS_POR_SEGUNDO = 30;
+const COLOR_CELDA ={ ".": "var(--libre)", "#": "var(--roca)", "F": "var(--fuego)", "H": "var(--humo)", "S": "var(--salida)" };
 
 const estado = {
   datos: null,        // respuesta de /api/mapa
@@ -126,8 +127,7 @@ function avanzar() {
 
 function programar() {
   clearInterval(estado.temporizador);
-  const celdasPorSegundo = Number($("velocidad").value);
-  estado.temporizador = setInterval(avanzar, 1000 / celdasPorSegundo);
+  estado.temporizador = setInterval(avanzar, 1000 / CELDAS_POR_SEGUNDO);
 }
 
 // ---------------------------------------------------------------- Botones
@@ -208,7 +208,6 @@ async function iniciar() {
   $("btnCorrer").addEventListener("click", correr);
   $("btnPaso").addEventListener("click", paso);
   $("btnReiniciar").addEventListener("click", reiniciar);
-  $("velocidad").addEventListener("input", () => { if (corriendo()) programar(); });
 
   dibujarMapa();
   elegirInicio(inicios[0]);

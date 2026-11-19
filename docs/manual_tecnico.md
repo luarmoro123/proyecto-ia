@@ -71,7 +71,7 @@ para reproducir la búsqueda en vivo.
 1. Al pulsar **Correr**, la página envía `POST /api/correr` con el algoritmo y el inicio.
 2. El servidor ejecuta el algoritmo en Python (5 veces, para medir el tiempo con la mediana)
    y devuelve el `Resultado` completo.
-3. La página dibuja una celda expandida más cada cierto tiempo (según la **Velocidad**),
+3. La página dibuja una celda expandida cada fracción de segundo,
    marcando con un recuadro la celda que se está expandiendo. **Paso** avanza una sola celda.
 4. Cuando se han mostrado todas las celdas, se dibuja la ruta y se agrega una fila a la tabla
    de resultados.

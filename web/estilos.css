@@ -96,9 +96,6 @@ select {
 .controles { display: flex; gap: 6px; }
 .controles .boton { flex: 1; }
 
-.velocidad { display: flex; align-items: center; gap: 10px; margin-top: 12px; font-size: .85rem; color: var(--suave); }
-.velocidad input { flex: 1; accent-color: var(--verde); }
-
 .progreso { height: 4px; background: var(--borde); border-radius: 2px; margin-top: 12px; overflow: hidden; }
 #barra { height: 100%; width: 0; background: var(--verde); }
 
