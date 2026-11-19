@@ -68,7 +68,6 @@ terminal.
    - **▶ Correr** reproduce la búsqueda en vivo; el mismo botón la **pausa**.
    - **Paso** avanza una sola celda.
    - **Reiniciar** vuelve al principio.
-   - **Velocidad** controla cuántas celdas por segundo se expanden.
 4. Al terminar se dibuja la ruta, se muestran el costo, los pasos, las celdas expandidas y el
    tiempo, y el algoritmo se agrega a la tabla **Resultados desde este inicio** para
    compararlo con los demás.
