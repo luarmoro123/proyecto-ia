@@ -119,7 +119,11 @@ proyecto_ia/
 │       └── informados.py      A*
 ├── tests/test_simulador.py    37 pruebas automáticas
 ├── requirements.txt           flask y pytest
-└── docs/manual_tecnico.md     Manual técnico
+└── docs/
+    ├── manual_tecnico.md      Manual técnico
+    ├── reporte_tecnico.docx   Reporte técnico (formato IEEE, editable)
+    ├── reporte_tecnico.pdf    Reporte técnico (formato IEEE, PDF)
+    └── diagramas/             Caso de uso, componentes y grafos de ejemplo
 ```
 
 ### API JSON
